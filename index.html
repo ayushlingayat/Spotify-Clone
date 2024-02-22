@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Web Player : Music for Everyone</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assests/logo.png">
+</head>
+<body>
+    <div class="main-container">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option">
+                    <i class="ri-home-4-line"></i>
+                    <a class="link-nav" href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="ri-search-line"></i>
+                    <a class="link-nav" href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="./assests/library_icon.png" alt="Library Icon" class="lib-img">
+                        <a class="link-nav" href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="ri-add-line"></i>
+                        <i class="ri-arrow-right-line"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create Your First Playlist</p>
+                        <p class="box-p2">It's easy we'll help you</p>
+                        <button class="badge">Create Playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcast to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse Podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./assests/backward_icon.png" alt="backward_icon">
+                    <img src="./assests/forward_icon.png" alt="backward_icon" class="hide">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge stick-item">Explore Premium</button>
+                    <button class="badge stick-item dark-badge"><i class="ri-download-line" style="margin-right: 6px;"></i>Install App</button>
+                    <i class="ri-user-fill stick-item cursor"></i>
+                </div>
+            </div>
+
+            <h2 class="h2-class">Recently played</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./assests/card1img.jpeg" alt="card_img_1" class="card_img">
+                    <p class="card-title p-spacing">Top 50 Global</p>
+                    <p class="card-info p-spacing">Your daily update of the most played tracks...</p>
+                </div>
+            </div>
+
+            <h2 class="h2-class">Trending Now Near You</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./assests/narrated_for_u.jpg" alt="card_img_1" class="card_img">
+                    <p class="card-title p-spacing">If we have each other</p>
+                    <p class="card-info p-spacing">We Have Each Other" showcases Benjamin's talent for crafting poignant narratives and has become a standout track in his repertoire.</p>
+                </div>
+                <div class="card">
+                    <img src="./assests/all.jpg" alt="card_img_1" class="card_img">
+                    <p class="card-title p-spacing">All of Me</p>
+                    <p class="card-info p-spacing">The song was written by Legend himself along with Toby Gad, and it is dedicated to Legend's wife, Chrissy Teigen.</p>
+                </div>
+                <div class="card">
+                    <img src="./assests/jashan_e_bahara.jpg" alt="card_img_1" class="card_img">
+                    <p class="card-title p-spacing">Jashan-E-Bahaaraa</p>
+                    <p class="card-info p-spacing">The song captures the essence of love and longing with its soulful melody and poetic lyrics.</p>
+                </div>
+                <div class="card">
+                    <img src="./assests/beasty.jpg" alt="card_img_1" class="card_img">
+                    <p class="card-title p-spacing">Beasty</p>
+                    <p class="card-info p-spacing">The song's production features hard-hitting beats and dark instrumentation, setting the tone for Polo G's confident and assertive performance.</p>
+                </div>
+                <div class="card">
+                    <img src="./assests/7rings.jpg" alt="card_img_1" class="card_img">
+                    <p class="card-title p-spacing">7 Rings</p>
+                    <p class="card-info p-spacing">The song is an upbeat pop and trap-infused anthem that celebrates self-empowerment and materialism. </p>
+                </div>
+                <div class="card">
+                    <img src="./assests/sad.jpg" alt="card_img_1" class="card_img">
+                    <p class="card-title p-spacing">A song about being sad</p>
+                    <p class="card-info p-spacing">The song is renowned for its emotional depth and raw vulnerability, with Adele's soulful vocals conveying heartbreak and sadness. </p>
+                </div>
+                <div class="card">
+                    <img src="./assests/hello.jpg" alt="card_img_1" class="card_img">
+                    <p class="card-title p-spacing">Hello?</p>
+                    <p class="card-info p-spacing">The song marked Adele's return to the music scene after a three-year hiatus and was highly anticipated by fans</p>
+                </div>
+                <div class="card">
+                    <img src="./assests/heather.jpg" alt="card_img_1" class="card_img">
+                    <p class="card-title p-spacing">Heather</p>
+                    <p class="card-info p-spacing">The song gained popularity for its heartfelt lyrics and acoustic-driven melody. </p>
+                </div>
+            </div>
+
+            <h2 class="h2-class">Featured Charts</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./assests/card5img.jpeg" alt="card_img_1" class="card_img">
+                    <p class="card-title p-spacing">Top Songs Global</p>
+                    <p class="card-info p-spacing">Your daily update of the top songs played...</p>
+                </div>
+                <div class="card">
+                    <img src="./assests/card6img.jpeg" alt="card_img_1" class="card_img">
+                    <p class="card-title p-spacing">Top Songs India</p>
+                    <p class="card-info p-spacing">Your daily update of the India's played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="./assests/card1img.jpeg" alt="card_img_1" class="card_img">
+                    <p class="card-title p-spacing">Top 50 Global</p>
+                    <p class="card-info p-spacing">Your daily update of the most played tracks...</p>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        
+    </div>
+</body>
+</html>
